@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
+    background-color: #F4C2C2;
     color: #lightpink;
 }
 
@@ -27,7 +27,7 @@ span {
 
 /* NAVBAR */
 .navbar {
-    background-color: #F8E1E5;
+    background-color:#84263e;
     padding: 20px 0;
 }
 
@@ -35,12 +35,12 @@ span {
     font-family: 'Playfair Display', serif;
     font-size: 23px;
     font-weight: 700;
-    color: #762238;
+    color: #F5F5DC;
     letter-spacing: 2px;
 }
 
 .navbar-brand:hover {
-    color: #a34b60;
+    color: #F5F5DC;
 }
 
 .navbar-collapse {
@@ -56,7 +56,7 @@ span {
 }
 
 .nav-link {
-    color: #4b3038;
+    color: #F5F5DC;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -64,13 +64,13 @@ span {
 }
 
 .nav-link:hover {
-    color: #a34b60;
+    color: #F5F5DC;
 }
 
 
 /* WELCOME SECTION */
 .welcome-section {
-    background-color: #f8eeee;
+    background-color: #FADADD;
     padding: 100px 0;
     overflow: hidden;
 }
@@ -101,7 +101,7 @@ span {
 
 .main-button {
     display: inline-block;
-    background-color: #84263e;
+    background-color: #800020;
     color: #ffffff;
     text-decoration: none;
     padding: 15px 28px;
@@ -154,28 +154,6 @@ span {
     left: 25%;
     z-index: 3;
 }
-
-
-/* ABOUT SECTION */
-.about-section {
-    padding: 90px 0;
-    background-color: #F1DDD3;
-}
-
-.about-section h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 22px;
-}
-
-.about-text {
-    max-width: 680px;
-    margin: auto;
-    color: #70545c;
-    font-size: 14px;
-    line-height: 1.9;
-}
-
 
 
 /* MILESTONE */
@@ -236,7 +214,7 @@ span {
     overflow: hidden;
     text-decoration: none;
     background-color: #f8eeee;
-    color: #ffffff;
+    color: #FFFFF0;
 }
 
 .featured-card img {
@@ -260,26 +238,47 @@ span {
     font-size: 10px;
     letter-spacing: 2px;
     margin-bottom: 7px;
-    color: #f0cbd4;
+    color: #FFFFF0;
 }
 
 .featured-caption h3 {
     font-size: 21px;
     margin: 0;
-    color: #ffffff;
+    color: #whitesmoke;
+}
+/* ABOUT SECTION */
+.about-section {
+    padding: 90px 0;
+    background-color: #84263e;
+    color: #FFFFF0;
 }
 
+.about-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: #FFFFF0;
+}
+
+.about-text {
+    max-width: 680px;
+    margin: auto;
+    color: #FFFFF0;
+    font-size: 14px;
+    line-height: 1.9;
+    color: #FFFFF0;
+}
 
 /* LATEST EDITS */
 .edits-section {
     padding: 90px 0;
-    background-color: #f8eeee;
+    background-color: #FADADD;
 }
 
 .edit-card {
     display: block;
     text-decoration: none;
-    color: #3b2029;
+    color: #whitesmoke;
     text-align: center;
     transition: 0.3s;
 }
@@ -305,7 +304,7 @@ span {
 }
 
 .edit-card p {
-    color: #8b263e;
+    color: #whitesmoke;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -315,7 +314,7 @@ span {
 /* PHOTO GALLERY */
 .gallery-section {
     padding: 90px 0;
-    background-color: #DDD6EF;
+    background-color: #FADADD;
 }
 
 .gallery-card {
@@ -351,7 +350,7 @@ span {
 }
 
 .gallery-placeholder span {
-    color: #84263e;
+    color: #FFFFF0;
     font-family: 'Playfair Display', serif;
     font-size: 22px;
     letter-spacing: 2px;
@@ -374,26 +373,26 @@ span {
 .favourites-intro {
     text-align: center;
     padding: 90px 20px 65px;
-    background-color: #ffffff;
+    background-color: #84263e;
 }
 
 .favourites-intro h2,
 .favourites-heading h2 {
     font-size: 42px;
     font-weight: 700;
-    color: #3b2029;
+    color: #FFFFF0;
     margin-bottom: 15px;
 }
 
 .favourites-intro > p:last-child {
-    color: #80666e;
+    color: #FFFFF0;
     font-size: 14px;
 }
 
 .favourites-heading {
     text-align: center;
     padding: 85px 20px 55px;
-    background-color: #ffffff;
+    background-color: #FFFFF0;
 }
 
 .favourite-feature {
