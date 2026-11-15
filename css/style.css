@@ -13,7 +13,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
-    color: #3b2029;
+    color: #lightpink;
 }
 
 h1, h2, h3 {
@@ -21,13 +21,13 @@ h1, h2, h3 {
 }
 
 span {
-    color: #8b263e;
+    color: #8b263e
 }
 
 
 /* NAVBAR */
 .navbar {
-    background-color: #ffffff;
+    background-color: #F8E1E5;
     padding: 20px 0;
 }
 
@@ -159,7 +159,7 @@ span {
 /* ABOUT SECTION */
 .about-section {
     padding: 90px 0;
-    background-color: #ffffff;
+    background-color: #F1DDD3;
 }
 
 .about-section h2 {
@@ -176,148 +176,6 @@ span {
     line-height: 1.9;
 }
 
-/* MY FAVOURITES */
-.favourites-section {
-    padding: 90px 0;
-    background-color: #f8eeee;
-}
-
-.favourite-card {
-    display: flex;
-    height: 100%;
-    min-height: 260px;
-    overflow: hidden;
-    border-radius: 3px;
-    transition: 0.3s;
-}
-
-.favourite-card:hover {
-    transform: translateY(-5px);
-}
-
-.favourite-card img {
-    width: 42%;
-    min-height: 260px;
-    object-fit: cover;
-    display: block;
-}
-
-.favourite-info {
-    width: 58%;
-    padding: 25px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.favourite-label {
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    margin-bottom: 12px;
-}
-
-.favourite-info h3 {
-    font-size: 23px;
-    font-weight: 700;
-    margin-bottom: 12px;
-}
-
-.favourite-info p:not(.favourite-label) {
-    font-size: 12px;
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
-
-.favourite-info span {
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-/* INDIVIDUAL CARD COLOURS */
-
-.kimi-card {
-    background-color: #A8D5D0;
-    color: #244b48;
-}
-
-.kimi-card span {
-    color: #244b48;
-}
-
-.charles-card {
-    background-color: #F2A6A6;
-    color: #702d35;
-}
-
-.charles-card span {
-    color: #702d35;
-}
-
-.oscar-card {
-    background-color: #F6C28B;
-    color: #75451f;
-}
-
-.oscar-card span {
-    color: #75451f;
-}
-
-.alex-card {
-    background-color: #E8B8C8;
-    color: #743e53;
-}
-
-.alex-card span {
-    color: #743e53;
-}
-
-.magui-card {
-    background-color: #C9B9E8;
-    color: #51406e;
-}
-
-.magui-card span {
-    color: #51406e;
-}
-
-.eli-card {
-    background-color: #A98BCB;
-    color: #38264f;
-}
-
-.eli-card span {
-    color: #38264f;
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-
-    .favourites-section {
-        padding: 65px 0;
-    }
-
-    .favourite-card {
-        min-height: 220px;
-    }
-
-    .favourite-card img {
-        min-height: 220px;
-    }
-
-    .favourite-info {
-        padding: 18px 14px;
-    }
-
-    .favourite-info h3 {
-        font-size: 18px;
-    }
-
-    .favourite-info p:not(.favourite-label) {
-        font-size: 10px;
-    }
-}
 
 
 /* MILESTONE */
@@ -369,7 +227,7 @@ span {
 /* FEATURED EDITS */
 .featured-section {
     padding: 90px 0;
-    background-color: #ffffff;
+    background-color: #EBCBD2;
 }
 
 .featured-card {
@@ -457,7 +315,7 @@ span {
 /* PHOTO GALLERY */
 .gallery-section {
     padding: 90px 0;
-    background-color: #ffffff;
+    background-color: #DDD6EF;
 }
 
 .gallery-card {
@@ -510,6 +368,299 @@ span {
     font-weight: 700;
     letter-spacing: 1.5px;
 }
+
+/* MY FAVOURITES */
+
+.favourites-intro {
+    text-align: center;
+    padding: 90px 20px 65px;
+    background-color: #ffffff;
+}
+
+.favourites-intro h2,
+.favourites-heading h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #3b2029;
+    margin-bottom: 15px;
+}
+
+.favourites-intro > p:last-child {
+    color: #80666e;
+    font-size: 14px;
+}
+
+.favourites-heading {
+    text-align: center;
+    padding: 85px 20px 55px;
+    background-color: #ffffff;
+}
+
+.favourite-feature {
+    width: 100%;
+    min-height: 560px;
+    display: flex;
+    align-items: stretch;
+}
+
+.feature-image {
+    width: 48%;
+    min-height: 560px;
+    overflow: hidden;
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 560px;
+    object-fit: cover;
+    display: block;
+}
+
+.feature-text {
+    width: 52%;
+    padding: 80px 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-category {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.feature-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.feature-text p:not(.feature-category) {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.feature-text span {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* DRIVER AND WAG COLOURS */
+
+.kimi {
+    background-color: #A8D5D0;
+    color: #244b48;
+}
+
+.kimi span {
+    color: #244b48;
+}
+
+.charles {
+    background-color: #F2A6A6;
+    color: #702d35;
+}
+
+.charles span {
+    color: #702d35;
+}
+
+.oscar {
+    background-color: #F6C28B;
+    color: #75451f;
+}
+
+.oscar span {
+    color: #75451f;
+}
+
+.alexandra {
+    background-color: #E8B8C8;
+    color: #743e53;
+}
+
+.alexandra span {
+    color: #743e53;
+}
+
+.magui {
+    background-color: #C9B9E8;
+    color: #51406e;
+}
+
+.magui span {
+    color: #51406e;
+}
+
+.eli {
+    background-color: #A98BCB;
+    color: #38264f;
+}
+
+.eli span {
+    color: #38264f;
+}
+
+/* MUSIC COLOURS */
+
+.taylor {
+    background-color: #E8D5E8;
+    color: #35445E;
+}
+
+.taylor span {
+    color: #35445E;
+}
+
+.olivia {
+    background-color: #E8D5E8;
+    color: #69434A;
+}
+
+.olivia span {
+    color: #69434A;
+}
+
+.gracie {
+    background-color: #E8D5E8;
+    color: #554466;
+}
+
+.gracie span {
+    color: #554466;
+}
+
+.sabrina {
+    background-color: #E8D5E8;
+    color: #76512F;
+}
+
+.sabrina span {
+    color: #76512F;
+}
+
+/* BOOK COLOURS */
+
+.boys {
+    background-color: #D9E3D2;
+    color: #3F5540;
+}
+
+.boys span {
+    color: #3F5540;
+}
+
+.shatter {
+    background-color: #D9E3D2;
+    color: #49405F;
+}
+
+.shatter span {
+    color: #49405F;
+}
+
+.double-image {
+    display: flex;
+    gap: 8px;
+    padding: 25px;
+}
+
+.double-image img {
+    width: 50%;
+    min-height: 0;
+    height: 510px;
+    object-fit: cover;
+}
+
+/* SERIES AND MOVIE COLOURS */
+
+.mentalist {
+    background-color: #D8E3E8;
+    color: #354C59;
+}
+
+.mentalist span {
+    color: #354C59;
+}
+
+.culpa {
+    background-color: #E9D5C9;
+    color: #68483A;
+}
+
+.culpa span {
+    color: #68483A;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .favourites-intro {
+        padding: 65px 15px 45px;
+    }
+
+    .favourites-intro h2,
+    .favourites-heading h2 {
+        font-size: 32px;
+    }
+
+    .favourites-heading {
+        padding: 60px 15px 40px;
+    }
+
+    .favourite-feature,
+    .favourite-feature.reverse {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .feature-image,
+    .feature-text {
+        width: 100%;
+    }
+
+    .feature-image {
+        min-height: 0;
+        height: 420px;
+    }
+
+    .feature-image img {
+        min-height: 0;
+        height: 100%;
+    }
+
+    .feature-text {
+        padding: 45px 30px 50px;
+    }
+
+    .feature-text h2 {
+        font-size: 36px;
+    }
+
+    .feature-text p:not(.feature-category) {
+        font-size: 13px;
+    }
+
+    .double-image {
+        height: 350px;
+    }
+
+    .double-image img {
+        height: 300px;
+    }
+}
+
 
 
 /* FOOTER */
